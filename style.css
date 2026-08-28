@@ -4,18 +4,14 @@
         }     
         body{
             font-family: "Font1";
-            margin: 15px;
+            margin: 10px;
             margin-top: 5px;
             background-image: url("Images/background.png");
             background-size: 100% auto;
         }
-
+        
+        /*Low bottom Arami*/
         .arami{
-            display: block;
-            max-width: 140px;
-            text-align: top right;
-        }
-        .arami2{
             margin-bottom: -45px;
             margin-left: -40px;
             max-width: 200px;
@@ -46,6 +42,8 @@
             line-height: 1.3rem;
         }
 
+        /*Medias*/
+        
     @media (max-width: 480px) {
         .caja h1{
             text-align: center;
