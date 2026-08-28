@@ -1,0 +1,48 @@
+        @font-face {
+            font-family: "Font1";
+            src: url("Font/imposs_accents.ttf");
+        }     
+        body{
+            font-family: "Font1";
+            margin: 40px;
+            margin-top: 5px;
+            background-image: url("Images/background.png");
+            background-repeat: repeat-x repeat-y;
+        }
+
+        .arami{
+            display: block;
+            max-width: 140px;
+            margin: auto;
+        }
+        .arami2{
+            margin-bottom: -25px;
+            margin-left: -21px;
+            max-width: 200px;
+        }
+
+        /*Caja de preguntas*/
+
+        .caja{
+            max-width: 110vh;
+            margin: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            border-style: solid;
+            border-radius: 5px 5px 5px 0px;
+            background-image: url("Images/background.png");
+            background-size: contain;
+        }
+        .caja h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        .caja h3{
+            font-size: 25px;
+        }
+        .caja p{
+            text-align: justify;
+            font-size: 20px;
+            line-height: 1.3rem;
+        }
+
