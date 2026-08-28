@@ -6,7 +6,7 @@
             font-family: "Font1";
             margin: 40px;
             margin-top: 5px;
-            background-color: black;
+            background-color: rgb(0, 0, 0);
         }
 
         .arami{
@@ -27,9 +27,9 @@
             margin: auto;
             padding: 20px;
             box-sizing: border-box;
-            background-image: url("Images/background2.png");
+            background-image: url("Images/background.png");
             background-size: contain;
-            color: rgb(28, 27, 32);
+            color: rgba(0,0,0,0.9);
         }
         .caja h1{
             text-align: center;
