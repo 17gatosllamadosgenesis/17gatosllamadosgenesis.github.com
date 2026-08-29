@@ -38,6 +38,7 @@
             font-size: 25px;
             letter-spacing: 1.5px;
             hyphens: auto;
+            margin-bottom: 0px;
         }
         .caja p{
             text-align: justify;
@@ -45,6 +46,7 @@
             line-height: 1.3rem;
             letter-spacing: 0.2px;
             hyphens: auto;
+            margin-top: 3px;
         }
 
         /*Medias*/
