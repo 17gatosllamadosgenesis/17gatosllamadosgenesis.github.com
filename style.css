@@ -1,9 +1,10 @@
+
         @font-face {
-            font-family: "Font1";
-            src: url("Font/imposs_accents.ttf");
-        }     
-        body{
-            font-family: "Font1";
+            font-family: "Datafont";
+            src: url(Font/Datafont.ttf);
+        }
+            body{
+            font-family: "Datafont";
             margin: 10px;
             margin-top: 5px;
             background-image: url("Images/background.png");
@@ -22,24 +23,28 @@
         /*Caja de preguntas*/
 
         .caja{
-            max-width: 110vh;
+            max-width: 700px;
             margin: auto;
             padding: 20px;
             box-sizing: border-box;
-            color: rgba(0,0,0,0.9);
-            color: rgb(34, 18, 18);
+            color: rgba(34, 18, 18, 0.9);
         }
         .caja h1{
             text-align: center;
             font-size: 40px;
+            letter-spacing: 1.5px;
         }
         .caja h3{
             font-size: 25px;
+            letter-spacing: 1.5px;
+            hyphens: auto;
         }
         .caja p{
             text-align: justify;
             font-size: 20px;
             line-height: 1.3rem;
+            letter-spacing: 0.2px;
+            hyphens: auto;
         }
 
         /*Medias*/
